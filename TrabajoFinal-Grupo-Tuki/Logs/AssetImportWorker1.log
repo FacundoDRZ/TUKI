@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'es' Physical Memory: 16309 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 14267 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/lauta/Downloads/TUKI/TrabajoFinal-Grupo-Tuki
+C:/Users/franv/Documents/GitHub/TUKI/TrabajoFinal-Grupo-Tuki
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61403
-Successfully changed project path to: C:/Users/lauta/Downloads/TUKI/TrabajoFinal-Grupo-Tuki
-C:/Users/lauta/Downloads/TUKI/TrabajoFinal-Grupo-Tuki
+51660
+Successfully changed project path to: C:/Users/franv/Documents/GitHub/TUKI/TrabajoFinal-Grupo-Tuki
+C:/Users/franv/Documents/GitHub/TUKI/TrabajoFinal-Grupo-Tuki
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,108 +47,108 @@ C:/Users/lauta/Downloads/TUKI/TrabajoFinal-Grupo-Tuki
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 71.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 309.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/lauta/Downloads/TUKI/TrabajoFinal-Grupo-Tuki/Assets
+[Subsystems] Discovering subsystems at path C:/Users/franv/Documents/GitHub/TUKI/TrabajoFinal-Grupo-Tuki/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) RX 560 Series (ID=0x67ef)
+    Renderer: AMD Radeon(TM) Vega 11 Graphics (ID=0x15dd)
     Vendor:   ATI
-    VRAM:     4074 MB
-    Driver:   31.0.12019.11001
+    VRAM:     7133 MB
+    Driver:   30.0.13014.8
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008047 seconds.
+Registered in 0.028706 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 69.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 139.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.538 seconds
+- Completed reload, in  1.347 seconds
 Domain Reload Profiling:
-	ReloadAssembly (539ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (1348ms)
+		BeginReloadAssembly (186ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (376ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (893ms)
+			LoadAssemblies (178ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (89ms)
+			SetupTypeCache (201ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (221ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (518ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (100ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005680 seconds.
+Registered in 0.025474 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\lauta\Downloads\TUKI\TrabajoFinal-Grupo-Tuki\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\lauta\Downloads\TUKI\TrabajoFinal-Grupo-Tuki\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\franv\Documents\GitHub\TUKI\TrabajoFinal-Grupo-Tuki\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\franv\Documents\GitHub\TUKI\TrabajoFinal-Grupo-Tuki\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.886 seconds
+- Completed reload, in  2.114 seconds
 Domain Reload Profiling:
-	ReloadAssembly (887ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (2116ms)
+		BeginReloadAssembly (243ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (23ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (686ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1558ms)
+			LoadAssemblies (209ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
+			SetupTypeCache (540ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (318ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (665ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (199ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (406ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (24ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3446 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3904.
 Memory consumption went from 120.0 MB to 119.9 MB.
-Total: 2.992200 ms (FindLiveObjects: 0.270900 ms CreateObjectMapping: 0.192400 ms MarkObjects: 2.415300 ms  DeleteObjects: 0.113100 ms)
+Total: 4.896100 ms (FindLiveObjects: 0.409900 ms CreateObjectMapping: 0.158200 ms MarkObjects: 4.170500 ms  DeleteObjects: 0.156200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,61 +162,29 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7653.259233 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.011789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 104.435753 seconds.
-  path: Assets/prefab/BalaJugador.prefab
-  artifactKey: Guid(c5cae7811a5a9cd4d9a3406957a51340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/BalaJugador.prefab using Guid(c5cae7811a5a9cd4d9a3406957a51340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cca0d5620cf5e8152acc5303eda4452') in 0.098872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/prefab/Enemigo1.prefab
-  artifactKey: Guid(2f5a5f7e2b9915f48b3fe889fdf2e987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/Enemigo1.prefab using Guid(2f5a5f7e2b9915f48b3fe889fdf2e987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b369dd35f978e379d3ad6e8a663e0524') in 0.012881 seconds 
+  Time since last request: 315518.581204 seconds.
+  path: Assets/Materiales
+  artifactKey: Guid(c3c3024bc3c22f348a930689914bb170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales using Guid(c3c3024bc3c22f348a930689914bb170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88e9e8ab9817f170ccecbb83f102a3d') in 0.012604 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/prefab/Boquilla.prefab
-  artifactKey: Guid(b7f6e9353a9732b4eb66aa204b6a74cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/Boquilla.prefab using Guid(b7f6e9353a9732b4eb66aa204b6a74cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d30aca434641c551f07c12a50e7d9f') in 0.081871 seconds 
+  path: Assets/Materiales/plano.mat
+  artifactKey: Guid(99fb320fb1babf44e85c86814392efe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/plano.mat using Guid(99fb320fb1babf44e85c86814392efe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783fca6b6277c7a7fcb0f40afc32c975') in 0.245053 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/prefab/Enemigo1Terminado.prefab
-  artifactKey: Guid(e013662c1f7dcf74c97bb491b7ca1b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/Enemigo1Terminado.prefab using Guid(e013662c1f7dcf74c97bb491b7ca1b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75559c6f7f1d2a735418277ff62fd111') in 0.038299 seconds 
+  Time since last request: 19.058501 seconds.
+  path: Assets/Materiales/Materiales/enemigo.mat
+  artifactKey: Guid(2ca750b7ba953fb49a70dbb119128641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Materiales/enemigo.mat using Guid(2ca750b7ba953fb49a70dbb119128641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6d81dfae6c4d8654a19ebca0a23186') in 0.018783 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/prefab/Tuki2.prefab
-  artifactKey: Guid(8335bca6868c56b4085801b316aaf2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/Tuki2.prefab using Guid(8335bca6868c56b4085801b316aaf2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d876560be5408047b5868971a099a0') in 0.011728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/prefab/NoEsUnPlayer.prefab
-  artifactKey: Guid(75294c0cfaedbc946990235fe2870bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/NoEsUnPlayer.prefab using Guid(75294c0cfaedbc946990235fe2870bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cb84f7f09339314dd51c70436676d3') in 0.018579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.572985 seconds.
-  path: Assets/Materiales/enemigo.mat
-  artifactKey: Guid(47f70c2f87425014eb78c1ae7bba75f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/enemigo.mat using Guid(47f70c2f87425014eb78c1ae7bba75f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2a2023916b6260dc6ff202da489d5b') in 0.030003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Materiales/player.mat
-  artifactKey: Guid(3b39360c98bf8564d954cbe92ae9bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/player.mat using Guid(3b39360c98bf8564d954cbe92ae9bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c425793a4f18acf68c466bea67d3f138') in 0.011683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Materiales/enemigo2.mat
-  artifactKey: Guid(08c7c85bb9a36ad49afad492becff65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/enemigo2.mat using Guid(08c7c85bb9a36ad49afad492becff65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cade2e3b91fd538a3dc917ea7676c367') in 0.011687 seconds 
+  Time since last request: 0.000045 seconds.
+  path: Assets/Materiales/Materiales/player.mat
+  artifactKey: Guid(12a6bf2417004784a8567393c02f080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Materiales/player.mat using Guid(12a6bf2417004784a8567393c02f080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a3a744c5b641644267d4e7f0c8ce67') in 0.021771 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
