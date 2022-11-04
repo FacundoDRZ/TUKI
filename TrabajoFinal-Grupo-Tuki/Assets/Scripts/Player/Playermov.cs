@@ -33,13 +33,13 @@ public class Playermov : MonoBehaviour
         //float mouseX = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
         transform.Rotate(new Vector3 (0f, rotationY, 0f) * rotationSpeed * Time.deltaTime);
 
-        //salto
+        /*salto
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("salto");
             physicsBody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             
-        }
+        }*/
 
     }
     
